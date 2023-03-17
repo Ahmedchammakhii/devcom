@@ -1,4 +1,5 @@
 import React from 'react'
+
 import "./company.css"
 const Campanyprofile = () => {
   return (
@@ -11,12 +12,12 @@ const Campanyprofile = () => {
                     <div class="container mt-0mx-auto bg-white dark:bg-gray-800 rounded">
                       
                         <div class="mx-auto">
-                            <div class="cover mx-auto w-full xl:mx-0">
+                            <div class="cover mx-auto xl:mx-0">
                                 <div class="rounded relative mt-0 h-48">
                                
                                 <img class="IMG" src="https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2710&amp;q=80"/>
                                    
-                                    <div class="w-50 profilef h-20 rounded-full bg-cover bg-center bg-no-repeat absolute bottom-0 -mb-10 ml-12 shadow flex items-center justify-center">
+                                    <div class="w-20 profilef h-20 rounded-full bg-cover bg-center bg-no-repeat absolute bottom-0 -mb-10 ml-12 shadow flex items-center justify-center">
                                         <img src="https://media.licdn.com/dms/image/C4D0BAQGadXZ5nNpmPA/company-logo_200_200/0/1673519626953?e=1686787200&v=beta&t=fdgpb8xt3asTj8Wrog7CL5FL_q-rF9l0Ae9CtNOm3ko"alt="" class="absolute z-0 h-full w-full object-cover rounded-full shadow top-0 left-0 bottom-0 right-0" />
 
                                     </div>

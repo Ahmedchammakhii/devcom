@@ -21,6 +21,9 @@ import Toyproblem from "./vues/ToyProblems/toyproblems"
 import Listing from './vues/listingOffers/listing'
 import CompanyProfile from './vues/listingDev/listingdev'
 import Contact from "./components/Cvgenerator/contact";
+import PovCompanies from './vues/listingInterview/povCompanies'
+import Createjob from "./vues/createjobOffer/createjob";
+import Application from "./vues/DevProfile/myapplications/application";
 function App() {
   const logout = () => {
     localStorage.clear();
@@ -52,9 +55,13 @@ function App() {
     <Route path="/listingOffers" element={<Listing/>} />
     <Route path="/listingDev" element={<CompanyProfile/>} />
     <Route path="/dashboard" element={<Dashboard/>} />
-    <Route path="/interview" element={<Interview/>} />
+    <Route path="/interview" element={<PovCompanies/>} />
+    <Route path="/listinginterview" element={<PovCompanies/>} />
+    <Route path="/createoffer" element={<Createjob/>} />
+    <Route path="/myapplications" element={<Application/>} />
     
-    </Routes>
+    
+    </Routes> 
     </div>
 
   

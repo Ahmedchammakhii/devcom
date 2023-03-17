@@ -48,8 +48,7 @@ const form = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
        change(userCredential)
-
-        console.log(user)
+     
        navigate("/developerProfile")
       })
       .catch((error) => {

@@ -1,0 +1,36 @@
+.applications__all {
+background-color: #16171b;
+width: 100vw;
+height: 100%;
+display: flex;
+gap: 50px;
+.interviewpov__containers{
+    color:#fff;
+    padding-top: 50px;
+    font-size: 20px;
+    .povcard__status {
+        padding-top: 50px;
+        margin-left: 50px;
+      
+        ul {
+            list-style-type:none;
+          }
+          
+          li {
+            cursor: pointer;
+            display:inline-block;/* display is set to inline block to make the list items aligned vertically but still have block properties so you can change the margin */
+            margin-right: .5em;/* gives space to each list item */
+            font-weight: 700;
+            color:hsla(180, 31%, 55%, 1);
+            background:hsl(0, 0%, 12%);
+            padding:.5em;
+            font-size: .8rem;
+          }
+          li:nth-child(1){
+            background-color: rgba(255, 21, 21, 0.124);
+            color:#ffffff ;
+          }
+        }
+}
+
+}

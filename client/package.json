@@ -21,13 +21,20 @@
     "firebase": "^9.17.1",
     "flowbite-datepicker": "^1.2.2",
     "gsap": "^3.11.4",
+
+
     "html2canvas": "^1.4.1",
-    "monaco-editor": "^0.36.1",
     "pdfmake": "^0.2.7",
+
+    "monaco-editor": "^0.36.1",
+
+
+
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-confetti": "^6.1.0",
     "react-datetime-picker": "^4.2.0",
+
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-loadingg": "^1.7.2",
@@ -42,7 +49,9 @@
     "sweetalert2": "^11.7.3",
     "twilio-video": "^2.26.2",
     "typewriter-effect": "^2.19.0",
+
     "zustand": "^4.3.6"
+
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

@@ -1,0 +1,62 @@
+.povCard{
+  
+
+.job-listing{
+    margin: 50px;
+        background:#fafafa;
+        width:80%;
+        height: 150px;
+        display:flex;
+        justify-content:space-between;
+        padding: 2em;
+        align-items:center;
+        box-shadow: 0 10px 6px -6px #777;
+        border-left: .3em solid rgb(2, 109, 109) ;
+        border-radius: 6px 0px 0px 6px;
+      }
+    
+    
+      
+      .job-listing__role {
+        font-weight: 700;
+        margin-top:.8em
+      }
+     
+      .job-listing__more-info {
+        margin-top: .5em;
+        color:hsl(180, 8%, 52%);
+        font-weight: 500;
+      }
+      
+      
+      .date{
+        font-weight: 500;
+      }
+    
+      .date:after,
+      .interview-duration:after{
+        margin: .5em;
+        content: "\00B7";
+      }
+    
+      ul {
+        list-style-type:none;
+      }
+      
+      li {
+        display:inline-block;/* display is set to inline block to make the list items aligned vertically but still have block properties so you can change the margin */
+        margin-right: .5em;/* gives space to each list item */
+        font-weight: 700;
+        color:hsla(180, 31%, 55%, 1);
+        background:hsl(180, 31%, 95%);
+        padding:.5em;
+        font-size: .8rem;
+      }
+      li:nth-last-child(1){
+        background-color: rgb(8, 133, 191);
+        width: 100px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+    }
+  }

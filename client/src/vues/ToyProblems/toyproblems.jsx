@@ -259,8 +259,8 @@ useEffect(()=>{
               </div>
               <Editor
              
-                height="71vh"
-                width="96.4%"
+                height="63vh"
+                width="95%"
                 theme="vs-dark"
                 language={language}
                 value={defaultvalue}

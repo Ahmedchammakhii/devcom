@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .aa {
   background: url("./assets/imgs/bg2.jpg") ;
   background-repeat: no-repeat;
@@ -588,11 +590,7 @@ download:hover{
               }
 .userscontact{background-color: #2f3349;
 width:100%}
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 * {
   margin: 0;

@@ -1,0 +1,35 @@
+.listingInteriewPovCompanies{
+width: 100%;
+height: 100%;
+background-color: #eeeff5;
+display: flex;
+gap: 0;
+.interviewpov__containers {
+    width: 100%;
+    h1{
+        margin: 50px;
+        font-weight: 700;
+        font-size: 20px
+    }
+    .povcard__status {
+   
+        margin-left: 50px;
+      
+        ul {
+            list-style-type:none;
+          }
+          
+          li {
+            cursor: pointer;
+            display:inline-block;/* display is set to inline block to make the list items aligned vertically but still have block properties so you can change the margin */
+            margin-right: .5em;/* gives space to each list item */
+            font-weight: 700;
+            color:hsla(180, 31%, 55%, 1);
+            background:hsl(180, 31%, 95%);
+            padding:.5em;
+            font-size: .8rem;
+          }
+        }
+
+}
+}

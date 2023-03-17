@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import "./select.scss"
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
+import landing from '../../assets/imgs/landingpage.png'
 import gsap from 'gsap'
 const select = () => {
   const navigate = useNavigate();
@@ -14,12 +15,18 @@ const select = () => {
       gsap.to('.cursor',0.2,{x:e.clientX,y:e.clientY})
     },[])
   }
-  },[]
+  else {
+    
+window.removeEventListener('mousemove')
+  }
+  },
+ 
   )
   return (
 
-    <div className='signup__select'>
-      <div className="cursor"></div>
+    <div className='signup__select'> 
+  
+      <div className="cursor"></div>  
       <div className="text">
       <p>{"function check (visitor) {"}</p>
       <p>{"if (VISITOR === 'Developer'){   "}</p>
@@ -31,6 +38,9 @@ const select = () => {
       <button onClick={e=>  navigate("/companyHome")  }>COMPANY</button>
       <button onClick={e=>  navigate("/devHome")} > DEVELOPER</button>
     </div>
+    
+
+  
     </div> )
 }
 
